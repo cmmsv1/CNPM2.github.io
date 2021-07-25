@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tai lieu online</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="author" href="humans.txt">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+
+
+
+</head>
+
+<body>
+
+    <div id="main">
+
+        <!-- Header -->
+
+        <div id="header" style="position: unset !important;">
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark flex">
+                <a class="navbar-brand" href="index.html">
+                    <img src="logo.png" alt="">
+                </a>
+                <div class="search-main">
+                    <div class="navbar-nav">
+                        <select name="" id="">
+                            <option value="">Danh mục</option>
+                            <option value="">Luận văn - Báo cáo</option>
+                            <option value="">Kỹ năng mềm</option>
+                            <option value="">Kinh doanh - Tiếp thị</option>
+                            <option value="">Kinh tế - Quản lý</option>
+                            <option value="">Tài chính - Ngân hàng</option>
+                            <option value="">Biểu mẫu - Văn bản</option>
+                            <option value="">Giáo dục - Đào tạo</option>
+                            <option value="">Giáo án - Bài giảng</option>
+                            <option value="">Công nghệ thông tin</option>
+                            <option value="">Văn bản pháp luật</option>
+                            <option value="">Học tiếng anh</option>
+                            <option value="">Các bài văn khấn nôm</option>
+                            <input type="hidden" id="CategoryId" value="" name="CategoryId" />
+                        </select>
+                    </div>
+                    <div class="search-menu">
+                        <input class="search-input" type="text" placeholder="Search">
+                        <i id="search-icon" class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="personal">
+                    <img src="https://media.store123doc.com/images/default/user_small.png" alt="">
+                    <div class="personal-name">
+                        <a href="#">Nguyen Van Anh</a>
+                    </div>
+                    <div class="hover-item">
+                        <label></label>
+                        <div class="personal-info">
+                            <ul>
+                                <a href="user.html">
+                                    <li id="info___user">Thông tin cá nhân</li>
+                                </a>
+                                <a href="">
+                                    <li>Hòm thư</li>
+                                </a>
+                                <a href="">
+                                    <li>Quản lý tài liệu</li>
+                                </a>
+                                <li id="logout">Đăng xuất</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="notify">
+                        <i class="far fa-bell"></i>
+                    </div>
+                </div>
+
+
+        </div>
+        </nav>
+    </div>
+
+
+        <!-- container -->
+        <div class="main-user">
+            <div class="user__ad"></div>
+            <div class="user__bg-white">
+                <div class="container-1280">
+                    <div class="user__bg-white--icon">
+                        <img src="https://media.store123doc.com/images/default/user_small.png" alt="">
+                    </div>
+                    <div class="user__name">
+                        <h5>Nguyễn Vân Anh 
+                            <a href="#" class="message">
+                                <i class="far fa-envelope"></i>
+                                Tin nhắn
+                            </a>
+                            <h6>Quyền hạn : <a href="user.html">Publisher</a></h6>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bg-two">
+                <div class="container-1280 ">              
+                    <div class="row">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+                            <h3 class="h3-control active-form ">Thông tin cá nhân</h3>
+                            <h3 class="h3-control">Đăng tài liệu</h3>
+                            <h3 class="h3-control">Chỉnh sửa tài liệu</h3>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="row">        
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <div class="user__infomation ">
+                                <h4 class="properties active__select-control">Thông tin cá nhân</h4>
+                            </div>
+                            <div class="user__infomation ">
+                                <h4 class="properties">Đăng tài liệu</h4>
+                            </div>
+                            <div class="user__infomation ">
+                                <h4 class="properties">Chỉnh sửa tài liệu</h4>
+                            </div>
+                        </div>
+                        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 pdb60">
+                            <div class="border-program active-form" id="program-form1">
+                                <div class="user__name-form">
+                                    <h5>Tên hiển thị</h5>
+                                    <p>Nguyễn Vân Anh</p>
+                                    <a href="#" class="setting-modify">
+                                        <i class="fas fa-cog"></i>
+                                        Sửa
+                                    </a>
+                                </div>
+                                <hr>
+                                <div class="user__infomation-item">
+                                    <h5>Thông tin</h5>
+                                    <p >
+                                        <span class="span-left">Ngày sinh</span>
+                                        <span>12/01/2001</span>
+                                    </p>
+                                    <p>
+                                        <span class="span-left">Giới tính</span>
+                                        <span>Nữ</span>
+                                    </p>
+                                    <p>
+                                        <span class="span-left">Địa chỉ</span>
+                                    </p>
+                                    <a href="#" class="setting-modify">
+                                        <i class="fas fa-cog"></i>
+                                        Sửa
+                                    </a>
+                                </div>
+                                <hr>
+                                <div class="user__password-modify">
+                                    <h5>Mật khẩu</h5>
+                                    <a href="#" class="setting-modify">
+                                        <i class="fas fa-cog"></i>
+                                        Sửa
+                                    </a>
+                                </div>
+                                <hr>
+                                
+
+                            </div>
+                            <div class="border-program" id="program-form2">
+                                <h4>Mời bạn điền vào các trường</h4>
+                                <form class="form__main">
+                                    <div class="form-group">
+                                      <label for="exampleFormControlInput1">Tiêu đề</label>
+                                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tiêu đề">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Chọn danh mục</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option value="">Danh mục</option>
+                                            <option value="">Luận văn - Báo cáo</option>
+                                            <option value="">Kỹ năng mềm</option>
+                                            <option value="">Kinh doanh - Tiếp thị</option>
+                                            <option value="">Kinh tế - Quản lý</option>
+                                            <option value="">Tài chính - Ngân hàng</option>
+                                            <option value="">Biểu mẫu - Văn bản</option>
+                                            <option value="">Giáo dục - Đào tạo</option>
+                                            <option value="">Giáo án - Bài giảng</option>
+                                            <option value="">Công nghệ thông tin</option>
+                                            <option value="">Văn bản pháp luật</option>
+                                            <option value="">Học tiếng anh</option>
+                                            <option value="">Các bài văn khấn nôm</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="exampleFormControlTextarea1">Mô tả</label>
+                                      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Viết mô tả ở đây"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput3">Chọn file ảnh</label>
+                                        <input type="file" class="form-control-file border">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlInput3">Chọn file tài liệu</label>
+                                        <input type="file" class="form-control-file border">
+                                    </div>
+                                    <div class="publisher__register-main">
+                                        <button type="button" class="btn btn-success publisher__register">Đăng bài</button>
+                                    </div>
+                                    
+
+                                </form>
+
+                                
+                            </div>
+                            <div class="border-program" id="program-form3">
+                                <h4>Mời bạn chọn tài tiệu để chỉnh sửa</h4>
+                                <div class="form-group flex">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Tìm kiếm">
+                                    <button type="button" class="btn btn-success mgl10">Tìm</button>
+                                </div>
+                                <div class="item row mb-3 mt-54">
+                                    <div class="col-2">
+                                        <a href="#">
+                                            <img src="image/search/placeHolder.jpg" class="img-fluid mt-54">
+                                        </a>
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="view.html" style="text-decoration: none; color: black; font-family: Roboto; font-size: 12px;">
+                                            <h4 class="remove-textalign">
+                                                Hoàn thiện kế toán chi phí sản xuất và tính giá thành sản phẩm tại Công ty xây dưng 123.DOC
+                                            </h4>
+                                        </a>
+                                        <p class="description">
+                                            Hoàn thiện kế toán chi phí sản xuất và tính giá thành sản phẩm tại Công ty xây dựng 123 . xuất và tính giá thành sản phẩm xây lắp tại Công ty, em xin mạnh dạn đi sâu nghiên cứu đề tài: Hoàn thiện kế toán chi phí sản xuất và tính. toán và các chi nh sách kế toán liên quan đến kế toán chi phí sản xuất và tính giá thành sản phẩm...
+                                        </p>
+                                        <div class="row col-5" style="font-size: 12px;">
+                                            <div class="text-muted col-4">
+                                                <i class="far fa-file-alt"></i>
+                                                <small>93</small>
+                                            </div>
+                                            <div class="text-muted col-4">
+                                                <i class="fas fa-eye"></i>
+                                                <small>93</small>
+                                            </div>
+                                            <div class="text-muted col-4">
+                                                <i class="fas fa-download"></i>
+                                                <small>93</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">                                      
+                                        <button type="button" class="btn btn-warning mt-54">Chỉnh sửa</button>                                       
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="item row mb-3 pdb60">
+                                    <div class="col-2">
+                                        <a href="#">
+                                            <img src="image/search/placeHolder.jpg" class="img-fluid mt-54">
+                                        </a>
+                                    </div>
+                                    <div class="col-8">
+                                        <a href="view.html" style="text-decoration: none; color: black; font-family: Roboto; font-size: 12px;">
+                                            <h4 class="remove-textalign">
+                                                Hoàn thiện kế toán chi phí sản xuất và tính giá thành sản phẩm tại Công ty xây dưng 123.DOC
+                                            </h4>
+                                        </a>
+                                        <p class="description">
+                                            Hoàn thiện kế toán chi phí sản xuất và tính giá thành sản phẩm tại Công ty xây dựng 123 . xuất và tính giá thành sản phẩm xây lắp tại Công ty, em xin mạnh dạn đi sâu nghiên cứu đề tài: Hoàn thiện kế toán chi phí sản xuất và tính. toán và các chi nh sách kế toán liên quan đến kế toán chi phí sản xuất và tính giá thành sản phẩm...
+                                        </p>
+                                        <div class="row col-5" style="font-size: 12px;">
+                                            <div class="text-muted col-4">
+                                                <i class="far fa-file-alt"></i>
+                                                <small>93</small>
+                                            </div>
+                                            <div class="text-muted col-4">
+                                                <i class="fas fa-eye"></i>
+                                                <small>93</small>
+                                            </div>
+                                            <div class="text-muted col-4">
+                                                <i class="fas fa-download"></i>
+                                                <small>93</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-2">                                      
+                                        <button type="button" class="btn btn-warning mt-54">Chỉnh sửa</button>                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- footer -->
+
+
+
+        <div id="footer">
+            <div class="container pt-54">
+
+                <div class="row">
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <img src="logo.png" class="img-responsive" alt="Image">
+                        <hr />
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <h3 class="h3">Giới thiệu</h3>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <h3 class="h3">Hỗ trợ</h3>
+                        <ul class="footer-ul">
+                            <li><a href="">support@xemtailieu.com</a></li>
+                            <li><a href="">hotroxemtailieu</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                        <h3 class="h3">Giúp đỡ</h3>
+                        <ul class="footer-ul">
+                            <li><a href="">Điều khoản sử dụng</a></li>
+                            <li><a href="">Quy định duyệt tài liệu</a></li>
+                            <li><a href="">Hướng dẫn upload tài liệu</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Tài liệu online là thư viện tài liệu trực tuyến, nơi chia sẽ trao đổi tài liệu như luận văn đồ án, sách,
+                    giáo trình, đề thi, truyện đọc.v.v.. Với kho tài liệu khủng lên đến hàng triệu tài liệu tại Tài liệu
+                    online hy vọng đáp ứng được nhu cầu của các thành viên.
+                    Tài liệu online không chịu trách nhiệm liên quan đến các vấn đề bản quyền tài liệu được thành viên tự
+                    nguyện đăng tải lên.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

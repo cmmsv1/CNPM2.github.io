@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/controller.css">
+    <title>Register</title>
+</head>
+<body>
+    <div class="box box-register">
+        <h2>Register Form</h2>
+        <form action="register_submit.php" method="POST">
+            <div class="input-field">
+                <input type="text" name="first_name"  >
+                <label for="">First name</label>
+                <span class="err">
+                    
+                </span>
+            </div>
+            
+            <div class="input-field">
+                <input type="text" name="last_name" >
+                <label for="">Last name</label>
+                <span class="err">
+                    
+                </span>
+            </div>
+            <div class="input-field">
+                <input type="text" name="email" >
+                <label for="">Email</label>
+                <span class="err">
+                    
+                </span>
+            </div>
+            <div class="input-field">
+                <input type="password" name="password" >
+                <label for="">Password</label>
+            </div>
+            <div class="input-field">
+                <input type="password" name="confirm_password">
+                <label for="">Confirm Password</label>
+                <span class="err">
+                    
+                </span>
+            </div>
+            <div class="submit">
+                <input type="submit" name="submit" value="Register">
+            </div>
+        </form>
+        <div class="submit">
+            <span>Have accout?</span>
+            <a href="login.html">Login now</a>
+        </div>
+    </div>
+</body>
+</html>

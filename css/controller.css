@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../image/slider/2.jpg);
+    background-size: cover;
+    
+}
+.box
+{
+    width: 400px;
+    background-color: rgba(28, 30, 30, 0.8);
+    position: absolute;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 35px;
+}
+.box h2
+{
+    text-align: center;
+    width: 100%;
+    font-size: 2.5rem;
+    color: #fff;
+    margin: 0 0 30px;
+    padding: 0;
+}
+.box .register_success{
+    color: green;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.box .err{
+    color: #FF0000;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.box .input-field
+{
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.box .input-field input
+{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;  
+    border: none;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+}
+.box .input-field label
+{
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    font-weight: 300;
+}
+.box .input-field input:focus ~ label,
+.box .input-field input:valid ~ label
+{
+    top: -20px;
+    left: 0;
+    color: #fff;
+    font-size: 16px;
+}
+.forgot-password
+{
+    margin-bottom: 40px;
+}
+.forgot-password a
+{
+    color: rgba(235, 232, 220, 0.7);
+    font-size: 16px;
+    font-weight: 300;
+}
+.forgot-password a:hover 
+{
+    color: rgb(223, 217, 143);
+}
+.box .submit
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box input[value="Login"]
+{
+    margin-bottom: 30px;
+}
+.box input[value="Register"]
+{
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.box input[type="submit"]
+{
+    color: #fff;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #03a9f4;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.box input[type="submit"]:hover
+{
+    opacity: 0.9;
+}
+
+.box .submit span
+{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.box .submit a
+{
+    font-size: 17px;
+    color: wheat;
+    margin-left: 5px;
+    text-decoration: none;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.box .submit a:hover 
+{
+    text-decoration: underline;
+}
+
